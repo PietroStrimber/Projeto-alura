@@ -25,4 +25,14 @@ body {
 
 .container-principal {
     height: 100vh;
+   display: grid;
+   grid-template-columns: 50% 50%;
+}
+
+.container_botão {
+    background-color: var(--botão-aul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-pricipal);
+    display: block;
 }
