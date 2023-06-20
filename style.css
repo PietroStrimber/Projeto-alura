@@ -64,14 +64,21 @@ border: 2px solid var(--branco-pricipal);
     margin: 0 6em;
 }
 .secundario{
-
+align-items: center;
+margin: 0 10em;
 }
 .secundario_imagem{
-
+width: 80%;;
 }
 .container_descricao{
 
 }
  .descricao_titulo{
-    
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-pricipal);
+    margin-bottom: 0.1em;
+ }
+ .descricao_texto{
+    color: var(--cinza-secundario);
  }
